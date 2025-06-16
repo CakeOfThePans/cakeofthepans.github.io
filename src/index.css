@@ -1,0 +1,50 @@
+@import 'tailwindcss';
+
+@layer base {
+	:root {
+		--primary: var(--color-blue-600);
+		--primary-foreground: var(--color-white);
+		--background: var(--color-gray-50);
+		--foreground: var(--color-gray-600);
+		--border: var(--color-gray-300);
+		--card: var(--color-white);
+		--toggle: var(--color-gray-200);
+	}
+
+	.dark {
+		--primary: var(--color-blue-500);
+		--primary-foreground: var(--color-white);
+		--background: var(--color-gray-900);
+		--foreground: var(--color-gray-100);
+		--border: var(--color-gray-700);
+		--card: var(--color-gray-800);
+		--toggle: var(--color-gray-700);
+	}
+
+	html {
+		scroll-behavior: smooth;
+		max-width: 100%;
+		margin: 0;
+		padding: 0;
+		overflow-x: hidden;
+	}
+
+	body {
+		font-family: 'Roboto', sans-serif;
+	}
+
+	input:-webkit-autofill,
+	input:-webkit-autofill:focus {
+		transition: background-color 0s 600000s, color 0s 600000s !important;
+	}
+}
+
+@theme {
+	--color-primary: var(--primary);
+	--color-primary-foreground: var(--primary-foreground);
+	--color-background: var(--background);
+	--color-foreground: var(--foreground);
+	--color-border: var(--border);
+	--color-card: var(--card);
+	--color-toggle: var(--toggle);
+}
