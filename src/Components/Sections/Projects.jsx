@@ -1,5 +1,8 @@
 import { ExternalLink, Github } from 'lucide-react'
 import RevealOnScroll from '../RevealOnScroll'
+import matchpointImage from '../../assets/projects/matchpoint.png'
+import portfolioImage from '../../assets/projects/portfolio.png'
+import todoaiImage from '../../assets/projects/todoai.png'
 
 export default function Projects() {
 	const projects = [
@@ -7,9 +10,16 @@ export default function Projects() {
 			title: 'MatchPoint',
 			description:
 				'A full stack PERN tennis match prediction platform delivering real-time match predictions, model results, and player rankings, powered by a FastAPI microservice that leverages XGBoost models for match predictions using player rankings, points, and odds.',
-			image: '/projects/matchpoint.png',
+			image: matchpointImage,
 			alt: 'MatchPoint Screenshot',
-			technologies: ['Node.js', 'Express', 'PostgreSQL', 'React', 'Tailwind CSS','FastAPI'],
+			technologies: [
+				'Node.js',
+				'Express',
+				'PostgreSQL',
+				'React',
+				'Tailwind CSS',
+				'FastAPI',
+			],
 			demoUrl: 'https://matchpoint-y241.onrender.com/',
 			githubURL: 'https://github.com/CakeOfThePans/MatchPoint',
 		},
@@ -17,7 +27,7 @@ export default function Projects() {
 			title: 'Portfolio Website',
 			description:
 				'A modern, responsive portfolio website built with React and TailwindCSS featuring smooth animations, dark/light theme toggle, and a professional design showcasing my projects and skills.',
-			image: '/projects/portfolio.png',
+			image: portfolioImage,
 			alt: 'Portfolio Website Screenshot',
 			technologies: ['JavaScript', 'React', 'Tailwind CSS'],
 			demoUrl: 'https://your-portfolio-url.com',
@@ -27,9 +37,16 @@ export default function Projects() {
 			title: 'ToDoAI',
 			description:
 				'A full stack MERN to do list application featuring drag and drop functionality for calendar events and reordering tasks and lists with a conversational AI interface powered by Langchain to assist users in managing their tasks.',
-			image: '/projects/todoai.png',
+			image: todoaiImage,
 			alt: 'ToDoAI Screenshot',
-			technologies: ['Node.js', 'Express', 'MongoDB', 'React', 'Tailwind CSS', 'Langchain'],
+			technologies: [
+				'Node.js',
+				'Express',
+				'MongoDB',
+				'React',
+				'Tailwind CSS',
+				'Langchain',
+			],
 			demoUrl: 'https://todoai-ttv4.onrender.com/',
 			githubURL: 'https://github.com/CakeOfThePans/ToDoAI',
 		},
