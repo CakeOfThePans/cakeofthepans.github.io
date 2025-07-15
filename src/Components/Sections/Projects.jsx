@@ -4,12 +4,32 @@ import RevealOnScroll from '../RevealOnScroll'
 export default function Projects() {
 	const projects = [
 		{
+			title: 'MatchPoint',
+			description:
+				'A full stack PERN tennis match prediction platform delivering real-time match predictions, model results, and player rankings, powered by a FastAPI microservice that leverages XGBoost models for match predictions using player rankings, points, and odds.',
+			image: '/projects/matchpoint.png',
+			alt: 'MatchPoint Screenshot',
+			technologies: ['Node.js', 'Express', 'PostgreSQL', 'React', 'Tailwind CSS','FastAPI'],
+			demoUrl: 'https://matchpoint-y241.onrender.com/',
+			githubURL: 'https://github.com/CakeOfThePans/MatchPoint',
+		},
+		{
+			title: 'Portfolio Website',
+			description:
+				'A modern, responsive portfolio website built with React and TailwindCSS featuring smooth animations, dark/light theme toggle, and a professional design showcasing my projects and skills.',
+			image: '/projects/portfolio.png',
+			alt: 'Portfolio Website Screenshot',
+			technologies: ['JavaScript', 'React', 'Tailwind CSS'],
+			demoUrl: 'https://your-portfolio-url.com',
+			githubURL: 'https://github.com/CakeOfThePans/Portfolio',
+		},
+		{
 			title: 'ToDoAI',
 			description:
 				'A full stack MERN to do list application featuring drag and drop functionality for calendar events and reordering tasks and lists with a conversational AI interface powered by Langchain to assist users in managing their tasks.',
 			image: '/projects/todoai.png',
 			alt: 'ToDoAI Screenshot',
-			technologies: ['Node.js', 'Express', 'MongoDB', 'React', 'Langchain'],
+			technologies: ['Node.js', 'Express', 'MongoDB', 'React', 'Tailwind CSS', 'Langchain'],
 			demoUrl: 'https://todoai-ttv4.onrender.com/',
 			githubURL: 'https://github.com/CakeOfThePans/ToDoAI',
 		},
@@ -37,7 +57,11 @@ export default function Projects() {
 									className="bg-card rounded-xl border border-border shadow-sm hover:shadow-lg hover:-translate-y-1 transition-transform"
 								>
 									<div className="overflow-hidden rounded-xl p-1">
-										<img src={project.image} alt={project.alt} />
+										<img
+											src={project.image}
+											alt={project.alt}
+											className="rounded-lg"
+										/>
 									</div>
 									<div className="px-4 py-6">
 										<h3 className="text-xl font-bold mb-4">{project.title}</h3>

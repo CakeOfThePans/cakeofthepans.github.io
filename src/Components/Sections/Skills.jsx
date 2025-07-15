@@ -11,7 +11,7 @@ import RevealOnScroll from '../RevealOnScroll'
 export default function Skills() {
 	const languages = ['Java', 'JavaScript', 'Python', 'HTML', 'CSS']
 	const frontend = ['React', 'Vue', 'Tailwind CSS', 'Redux']
-	const backend = ['Node.js', 'Express', 'Spring Boot', 'RESTful APIs']
+	const backend = ['Node.js', 'Express', 'Spring Boot', 'FastAPI', 'RESTful APIs']
 	const databases = ['MongoDB', 'PostgreSQL']
 	const ds = ['Pandas', 'NumPy', 'Scikit-learn', 'TensorFlow', 'Matplotlib']
 	const tools = ['Git', 'Github', 'VS Code', 'Postman', 'Jupyter Notebook']
