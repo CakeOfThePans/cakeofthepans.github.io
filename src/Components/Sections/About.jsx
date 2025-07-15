@@ -58,7 +58,9 @@ export default function About() {
 									<li>
 										Developed a secure file transfer system with user and group
 										rights-based authorization using Spring Boot, Vue, and
-										PostgreSQL
+										PostgreSQL, including a login API with 2FA via email-based
+										OTP, a customizable password policy, and an audit log to
+										track user activities.
 									</li>
 								</ul>
 							</div>
@@ -66,8 +68,11 @@ export default function About() {
 								<strong>Clean Energy Intern</strong> - Mobileware (Summer 2023)
 								<ul className="list-disc pl-5">
 									<li>
-										Assisted in the development and refinement of a carpool and
-										EV charging application using Node.js, Express, and MongoDB.
+										Designed backend features for a carpooling and EV charging
+										application using Node.js, Express, and MongoDB, including
+										route planning with integrated EV charging station detection
+										to enhance trip efficiency and real-time convenience for
+										drivers.
 									</li>
 								</ul>
 							</div>
