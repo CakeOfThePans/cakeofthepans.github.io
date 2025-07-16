@@ -30,7 +30,7 @@ export default function Projects() {
 			image: portfolioImage,
 			alt: 'Portfolio Website Screenshot',
 			technologies: ['JavaScript', 'React', 'Tailwind CSS'],
-			demoUrl: 'https://your-portfolio-url.com',
+			demoUrl: 'https://cakeofthepans.github.io/Portfolio/',
 			githubURL: 'https://github.com/CakeOfThePans/Portfolio',
 		},
 		{
