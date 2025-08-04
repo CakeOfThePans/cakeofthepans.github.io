@@ -79,7 +79,7 @@ export default function About() {
 					</div>
 					<div className="flex justify-center mt-6">
 						<a
-							href="/Portfolio/Resume.pdf"
+							href="/Resume.pdf"
 							download
 							className="bg-primary text-primary-foreground font-medium px-6 py-2 rounded-md hover:bg-primary/90 hover:scale-105 transition-all"
 						>
