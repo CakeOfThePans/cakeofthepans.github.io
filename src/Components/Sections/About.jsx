@@ -56,11 +56,11 @@ export default function About() {
 								Inc (Summer 2024)
 								<ul className="list-disc pl-5">
 									<li>
-										Developed a secure file transfer system with user and group
-										rights-based authorization using Spring Boot, Vue, and
-										PostgreSQL, including a login API with 2FA via email-based
-										OTP, a customizable password policy, and an audit log to
-										track user activities.
+										Engineered a secure file transfer system with
+										user/group-based authorization using Spring Boot, Vue, and
+										PostgreSQL, including a login API with two-factor
+										authentication and customizable password policies to enhance
+										security.
 									</li>
 								</ul>
 							</div>
@@ -68,11 +68,10 @@ export default function About() {
 								<strong>Clean Energy Intern</strong> - Mobileware (Summer 2023)
 								<ul className="list-disc pl-5">
 									<li>
-										Designed backend features for a carpooling and EV charging
-										application using Node.js, Express, and MongoDB, including
-										route planning with integrated EV charging station detection
-										to enhance trip efficiency and real-time convenience for
-										drivers.
+										Built backend features for a carpooling and EV charging
+										application using Node.js, Express, and MongoDB including
+										route planning logic with real-time EV charging station
+										detection to improve driver efficiency.
 									</li>
 								</ul>
 							</div>

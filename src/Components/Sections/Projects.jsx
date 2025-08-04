@@ -9,7 +9,7 @@ export default function Projects() {
 		{
 			title: 'MatchPoint',
 			description:
-				'A full stack PERN tennis match prediction platform delivering real-time match predictions, model results, and player rankings, powered by a FastAPI microservice that leverages XGBoost models for match predictions using player rankings, points, and odds.',
+				'A full-stack PERN tennis match prediction platform delivering real-time match predictions and analytics to help tennis enthusiasts forecast match outcomes, along with a FastAPI microservice to deploy machine learning models using XGBoost, leveraging player rankings, points, and odds.',
 			image: matchpointImage,
 			alt: 'MatchPoint Screenshot',
 			technologies: [
@@ -36,7 +36,7 @@ export default function Projects() {
 		{
 			title: 'ToDoAI',
 			description:
-				'A full stack MERN to do list application featuring drag and drop functionality for calendar events and reordering tasks and lists with a conversational AI interface powered by Langchain to assist users in managing their tasks.',
+				'A full-stack MERN to-do list application to help users manage tasks more intuitively through AI-powered natural language commands through Langchain, calendar integration, and real-time task reordering.',
 			image: todoaiImage,
 			alt: 'ToDoAI Screenshot',
 			technologies: [
