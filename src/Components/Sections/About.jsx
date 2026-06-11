@@ -33,7 +33,7 @@ export default function About() {
 								<strong>
 									Bachelor of Arts in Computer Science and Data Science
 								</strong>{' '}
-								- New York University (2022 - Present)
+								- New York University (2022 - 2026)
 							</div>
 							<ul className="list-disc pl-5">
 								<li>
@@ -42,7 +42,7 @@ export default function About() {
 									Discrete Mathematics, Linear Algebra, Probability and
 									Statistics, Parallel Computing, Principles of Data Science,
 									Causal Inference, Fundamentals of Machine Learning,
-									Responsible Data Science
+									Responsible Data Science, Software Engineering
 								</li>
 							</ul>
 						</div>
